@@ -65,6 +65,7 @@ const colors = {
   transGreen: pallete['primary-transparent-700'],
   transNavy: 'rgba(10, 25, 47, 0.7)',
   shadowNavy: 'rgba(2, 12, 27, 0.7)',
+  green: '#64FFDA',
 };
 
 export default colors;

@@ -10,7 +10,7 @@ export default {
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Ankit Kamboj',
   location: 'Gurgaon, India',
-  email: 'ankitkamboj124@gmail.com',
+  email: 'christhoval06@gmail.com',
   github: 'https://github.com/ankitkamboj18',
   twitterHandle: '@imAnkitkamboj18',
   socialMedia: [
@@ -39,23 +39,29 @@ export default {
   navLinks: [
     {
       name: 'About',
-      url: '#about',
+      url: '/#about',
+      to: 'about',
     },
+
     {
       name: 'Experience',
-      url: '#jobs',
+      url: '/#jobs',
+      to: 'jobs',
     },
     {
       name: 'Work',
-      url: '#featured',
+      url: '/#featured',
+      to: 'featured',
     },
     {
       name: 'Projects',
-      url: '#projects',
+      url: '/#projects',
+      to: 'projects',
     },
     {
       name: 'Contact',
-      url: '#contact',
+      url: '/#contact',
+      to: 'contact',
     },
   ],
 

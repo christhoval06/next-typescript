@@ -19,14 +19,17 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@/*": ["*"],
+      "@/*": [
+        "*"
+      ],
       "@/components/*": [
         "components/*"
       ],
       "@/layouts/*": [
         "components/layouts/*"
       ]
-    }
+    },
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
