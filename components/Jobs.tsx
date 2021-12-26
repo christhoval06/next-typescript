@@ -121,7 +121,7 @@ const Highlighter = styled.span<HighlighterProps>`
     top: auto;
     bottom: 0;
     transform: translateX(
-      ${props => (props.activeTabId > 0 ? props.activeTabId * theme.tabWidth : 0)}px
+      ${(props: HighlighterProps) => (props.activeTabId > 0 ? props.activeTabId * theme.tabWidth : 0)}px
     );
     margin-left: 50px;
   `};
